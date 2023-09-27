@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <base href="/">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Task Manager</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
-        <div id="root"></div>
-        <script type="module" src="/src/index.tsx"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8" />
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="cite-header">
+        <h1 class="cite-title">
+            <p>Менеджер задач</p>
+        </h1>
+        <ul>
+            <li class="sort__list-item">
+                <p>Завершенные</p>
+            </li>
+            <li class="sort__list-item">
+                <p>Не завершенные</p>
+            </li>
+        </ul>
+    </header>
+    <main class="main-content">
+        <h2>
+            Лист задач
+        </h2>
+        <ul class="task-list">
+            <li class="list-item">
+                <p>Задача 1</p>
+            </li>
+            <li class="list-item">
+                <p>Задача 2</p>
+            </li>
+            <li class="list-item">
+                <p>Задача 3</p>
+            </li>
+        </ul>
+    </main>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+    <footer class="cite-footer">
+        <p>Мой первый пет проект на React.</p>
+    </footer>
+</body>
+
 </html>
